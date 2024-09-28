@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/images/thunderstorm-1768742_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sectionContainer{
+    /* border: 2px solid red; */
+    width: inherit;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.sectionContainer h1{
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputs{
+    /* border: 2px solid red; */
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.card{
+    border: 2px solid black;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000000cb;
+    border-radius: 10px;
+    gap: 5%;
+    padding: 20px;
+   
+}
+input{
+    width: 700px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    font-size: 15px;
+    border-style: none;
+
+
+}
+button{
+    width: 200px;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+button:hover{
+    background: #3b3b3bc4;
+    color: black;
+}
+.card h3{
+    color: rgba(233, 230, 230, 0.753);
+    word-spacing: 2%;
+    font-size: 15px;
+
+
+}
+.card h1{   
+    font-size: 29px;
+    color: rgba(233, 230, 230, 0.753);
+}
+.card img{
+    width: 25%;
+    height: 25%;
+}
