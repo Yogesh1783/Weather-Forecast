@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/images/thunderstorm-1768742_1280.jpg");
+    background-image: url("../assets/images/wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -36,6 +36,8 @@ body{
     justify-content: center;
     align-items: center;
     padding: 50px;
+    justify-content: space-around;
+    gap: 3%;
 }
 .card{
     border: 2px solid black;

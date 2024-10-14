@@ -24,7 +24,7 @@ const WeatherApi = () => {
     }
   };
 
-  return (
+  return ( 
     <section className={Style.sectionContainer}>
       <h1>
         Weather Forecast <FaCloudSun />
